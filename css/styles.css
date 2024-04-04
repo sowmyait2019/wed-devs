@@ -1,0 +1,191 @@
+
+  .rectangle-box {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkmagenta;
+    color: aliceblue;
+    border: 2px solid;
+    border-radius: 8px;
+    width:200px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 300px;
+    margin-top: 30px;
+    
+  }
+  
+  .rectangle p {
+    margin: 0;
+    font-size: 10px;
+    font-weight: bold;
+    
+  }
+  .text p {
+    text-align: center;
+    
+   
+  }
+  p:last-child::after {
+    content: "";
+    display: block;
+    border-bottom: 3px dashed #bc1d97;
+    margin-top: 10px; 
+    width: 600px;
+    margin-top: 20px;
+    position: absolute;
+    left: 25%;
+  }
+  h3 {
+    text-align: center;
+    margin-top: 50px;
+    
+  }
+  .rectangle-box1 {
+    background-color: darkmagenta;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid;
+    border-radius: 8px;
+    width:400px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 200px;
+    margin-top: 30px;
+    font-size: 11px;
+  }
+  .testimonials-container {
+    max-width: 500px;
+    margin: 50px auto;
+    overflow: hidden;
+  }
+  
+  .testimonial {
+    display: none;
+    padding: 20px;
+    background-color:white;
+    border-radius: 8px;
+    margin-left: 50px;
+  }
+  
+  .testimonial.active {
+    display: block;
+  }
+  
+  .author {
+    display: block;
+    margin-top: 10px;
+    font-style: italic;
+  }
+  
+  /* Animation */
+  @keyframes slideInFromRight {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  .slide-in {
+    animation: slideInFromRight 0.5s ease forwards;
+  }
+  .testimonial {
+    text-align: center; /* Center text and images */
+  }
+  .testimonial img {
+    display: inline-block; /* Make images inline-block */
+    margin-bottom: 10px; /* Add space below images */
+  }
+  .rectangle-box2 {
+    background-color: darkmagenta;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid;
+    border-radius: 8px;
+    width:400px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 200px;
+    margin-top: 30px;
+    font-size: 11px;
+  }
+  .testimonials-container1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust the gap between testimonials */
+    justify-content: center; /* Center the items horizontally */
+    margin-top: 20px;
+  }
+  
+  .testimonial-box {
+    width: calc(25% - 20px); /* Set width for each testimonial box (1/4 of the container minus the gap) */
+    text-align: center; /* Center text and images */
+  }
+  
+  .testimonial-box img {
+    display: inline-block; /* Make images inline-block */
+    width: 100px; /* Set image width */
+    height: 100px; /* Set image height */
+    border-radius: 50%; /* Make the image round */
+    margin-bottom: 10px; /* Add space below images */
+  }
+  
+  
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid black; /* Add a black border */
+  border-radius: 5px;
+  background-color: #fff;
+ 
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+.rectangle-box3 {
+  background-color: darkmagenta;
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 2px solid;
+  border-radius: 8px;
+  width:400px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-left: 200px;
+  margin-top: 40px;
+  font-size: 11px;
+}
+.testimonials-container2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Adjust the gap between testimonials */
+  justify-content: center; /* Center the items horizontally */
+  margin-top: 30px;
+}
+
+.testimonial-boxs {
+  width: calc(25% - 20px); /* Set width for each testimonial box (1/4 of the container minus the gap) */
+  text-align: center; /* Center text and images */
+}
+
+.testimonial-boxs img {
+  display: inline-block; /* Make images inline-block */
+  width: 100px; /* Set image width */
+  height: 100px; /* Set image height */
+  border-radius: 50%; /* Make the image round */
+  margin-bottom: 10px; /* Add space below images */
+}
+
+
+
+
+
+
